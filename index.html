@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="/css/tooltips.css">
+    <script src="./js/hamburgermenu.js" defer></script>
+    <script src="./js/slider.js" defer></script>
+    <script src="./js/pagebutton.js" defer></script>
+    <title>Bring</title>
+  </head>
+
+
+  <body>
+
+    <!---------------------------
+    |                           |
+    |        Header area        |
+    |                           |
+    ----------------------------->
+
+    <header>
+      <img src="img/logo.svg" alt="bring logo" />
+      <form method="post">
+        <input
+          type="search"
+          name="track"
+          placeholder="Indtast track and trace"
+        />
+        <input
+          type="image"
+          class="search"
+          value="submit"
+          src="img/baseline-search-24px.svg"
+        />
+      </form>
+
+
+      <!-- Navigation area -->
+
+      <nav>
+        <input type="checkbox" class="menuopener" />
+        <img src="img/baseline-menu-24px.svg" class="menuicon" />
+        <img src="img/baseline-menu-24px.svg" class="closeicon" />
+        <ul>
+          <h2>Hovedmenu</h2>
+          <li><a href="#">Hjem</a></li>
+          <li>
+            <a href="#" id="services">Tjenester</a>
+            <input class="submenu-btn" type="checkbox" />
+            <img src="img/baseline-keyboard-arrow-right.svg" class="submenu-icon" />
+            <ul>
+              <li><a href="#">E-handel</a></li>
+              <li><a href="#">Bud og ekspreslevering</a></li>
+              <li><a href="#">Pakker</a></li>
+              <li><a href="#">Gods</a></li>
+              <li><a href="#">Termo</a></li>
+              <li><a href="#">Post og reklamesager</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Om Bring</a></li>
+          <li><a href="#">E-handel</a></li>
+          <li><a href="#">Modtagerservice</a></li>
+          <li><a href="#">Kundeservice</a></li>
+          <li><a href="#">Vil du være en af os?</a></li>
+          <li><a href="#">Kontakt os</a></li>
+        </ul>
+      </nav>
+
+
+    </header>
+
+
+
+
+    <!---------------------------
+    |                           |
+    |        Main area          |
+    |                           |
+    ----------------------------->
+
+
+
+    <main>
+
+      <!-- Section 1 area -->
+
+      <section id="section1">
+        <div class="banner-container">
+          <div class="banner banner1"></div>
+          <div class="banner banner2"></div>
+        </div>
+
+        <div class="wrapper">
+          <article class="bannertext">
+          <h1>Din vej gennem Norden</h1>
+          <p>Komplette løsninger til transport af gods, pakker og post</p>
+          </article>
+          <button class="scroll-button scroll-button1" data-target="#section2"><img src="./img/baseline-keyboard-arrow-down.svg" alt="arrow down"></button>
+        </div>
+      </section>
+
+      <!-- Section 2 area -->
+
+      <section id="section2">
+      <div class="wrapper">
+        <h2>Tjenester</h2>
+        <article class="services">
+          <div class="service-item">
+            <img src="img/shopping-cart.png" alt="bring e-handel e-commerce" />
+            <h3>E-handel</h3>
+          </div>
+
+          <div class="service-item tooltip">
+            <img
+              src="img/courier-illustration.png"
+              alt="bud budbringer bring"
+            />
+            <span class="tooltiptext">Tooltip text</span>
+            <h3>Bud og ekspreslevering</h3>
+          </div>
+          <div class="service-item">
+            <img src="img/parcel-illustration.png" alt="pakker levering post" />
+            <span class="tooltiptext">Tooltip text</span>
+            <h3>Pakker</h3>
+          </div>
+
+          <div class="service-item">
+            <img
+              src="img/cargo-illustration.png"
+              alt="gods levering transport"
+            />
+            <h3>Gods</h3>
+          </div>
+
+          <div class="service-item">
+            <img
+              src="img/tempererat.png"
+              alt="temperatur tempereret gods termo"
+            />
+            <h3>Termo</h3>
+          </div>
+
+          <div class="service-item">
+            <img src="img/mailbox.png" alt="post reklame pakker levering" />
+            <h3>Post og reklamesager</h3>
+          </div>
+        </article>
+
+        <button class="scroll-button scroll-button2" data-target="#section3"><img src="./img/baseline-keyboard-arrow-down.svg" alt="arrow down"></button>
+      </div>
+      </section>
+
+      <!-- Section 3 area -->
+
+      <section id="section3">
+        
+      <div class="wrapper">
+        <h2>Om Bring</h2>
+        <img src="img/smiley.png" alt="smiley happy customers glade kunder" />
+        
+
+        <article class="columns">
+          <div class="column">
+            <p>
+              Bring løser hverdagslogistikken for små og store virksomheder i
+              hele Norden. Hos os får du hjælp til alt fra e-handel til
+              lægemiddeltransporter. Vi håndterer pakker, bud, post og gods.
+            </p>
+
+            <p>
+              Vi kan lagre dine varer og har erfaring med tempereret
+              fødevarelogistik. Vi kan installere den bestilte vaskemaskine for
+              dine kunder, bære den nyindkøbte sofa ind og samle den.
+            </p>
+          </div>
+
+          <div class="column">
+            <p>
+              Norden er Brings hjemmemarked. I Sverige har vi en stærk
+              tilstedeværelse og god leveringskapacitet til jer eller direkte
+              til jeres kunder. Fra vores nordiske base hjælper vi jer videre
+              med logistik til eller fra den øvrige verden uanset trafikart.
+            </p>
+
+            <p>
+              Hos Bring er vi omkring 6000 medarbejdere, som arbejder for din
+              virksomhed ud fra tydelige værdier: ærlighed, mod, åbenhed,
+              samarbejde og respekt.
+            </p>
+          </div>
+        </article>
+
+        <a href="#" class="readmore">Læs mere</a>
+
+        <button class="scroll-button scroll-button3" data-target="#section4"><img src="./img/baseline-keyboard-arrow-down.svg" alt="arrow down"></button>
+      </div>
+      </section>
+
+      <!-- Section 4 area -->
+
+      <section id="section4">
+      <div class="wrapper">
+        <article>
+          <h2>E-handel</h2>
+
+          <img src="img/e-handel.png" alt="bring e-handel" />
+
+          <h3>
+            Læs flere dybdegående artikler om e-handel, læs vores
+            e-handelsrapport eller se videoklip fra vores seminarer.
+          </h3>
+
+          <a href="#" class="readmore">Læs mere</a>
+        </article>
+
+        <button class="scroll-button scroll-button4" data-target="#section5"><img src="./img/baseline-keyboard-arrow-down.svg" alt="arrow down"></button>
+      </div>
+      </section>
+
+      <!-- Section 5 area -->
+
+      <section id="section5">
+      <div class="wrapper">
+        <article>
+          <h2>Modtagerservice</h2>
+
+          <img src="img/truck.png" alt="bring modtageservice" />
+
+          <h3>
+            Her kan du som er modtager af en pakke, der er sendt med Bring, få
+            svar på de oftest stillede spørgsmål og se vores telefonnumre samt
+            e-mailadresser.
+          </h3>
+
+          <a href="#" class="readmore">Læs mere</a>
+        </article>
+        <button class="scroll-button scroll-button5" data-target="#section6"><img src="./img/baseline-keyboard-arrow-down.svg" alt="arrow down"></button>
+      </div>
+      </section>
+
+      <!-- Section 6 area -->
+
+      <section id="section6">
+      <div class="wrapper">
+        <h2 class="absolute">Kundeservice</h2>
+
+        <article class="columns">
+          <div class="column">
+            <p>
+              I vores kundeservice finder du svar på de oftest stillede
+              spørgsmål, telefonnumre og email samt adresserne til vores
+              kontorer og terminaler.
+            </p>
+            <ul>
+              <li>Pakker: 70 28 60 70</li>
+              <li>Bud: 70 10 31 03</li>
+              <li>International godstransport: 43 96 34 66</li>
+              <li>Temperaturkontrolleret transport: +45 96 356 700</li>
+            </ul>
+          </div>
+
+          <div class="column">
+            <img src="img/bring-map-nordic.png" alt="nordic map headquarters" />
+          </div>
+        </article>
+
+        <a href="#" class="readmore">Læs mere</a>
+
+        <button class="scroll-button scroll-button6" data-target="#section7"><img src="./img/baseline-keyboard-arrow-down.svg" alt="arrow down"></button>
+      </div>
+      </section>
+
+      <!-- Section 7 area -->
+
+      <section id="section7">
+        <img class="budbil" src="img/budbil1.jpg" alt="bring budbil" />
+      <div class="wrapper">
+        <article style="bottom: -4600px;">
+          <h2>Vil du være en af os?</h2>
+          <a href="#" class="seekjob">Søg job</a>
+        </article>
+
+        <button class="scroll-button scroll-button7" data-target="#top"><img src="./img/baseline-keyboard-arrow-up.svg" alt="arrow up"></button>
+      </div>
+      </section>
+    </main>
+
+    <!------------------------------
+    |                              |
+    |        Footer area           |
+    |                              |
+    ------------------------------->
+
+    <footer>
+      <h2>Kontakt os</h2>
+
+      <article class="columns">
+        <div class="column">
+          <h3>Hovedkvarter</h3>
+          <ul>
+            <li>Fuglebækvej 5-9, 2770 Kastrup</li>
+            <li>Telefon: +45 4396 3466</li>
+            <li>kontakt@bring.dk</li>
+          </ul>
+        </div>
+
+        <div class="column">
+          <h3>Bud</h3>
+          <ul>
+            <li>Fuglebækvej 5-9, 2770 Kastrup</li>
+            <li>Birkedam 18, 6000 Kolding</li>
+            <li>Hans Egedes Vej 18, 5210 Odense Nv</li>
+            <li>Norddigesvej 3, 8240 Risskov</li>
+          </ul>
+
+          <h3>Tempereret transport</h3>
+          <ul>
+            <li>Gasværksvej 48, 9000 Aalborg</li>
+          </ul>
+        </div>
+
+        <div class="column">
+          <h3>Gods</h3>
+          <ul>
+            <li>Fuglebækvej 5-9, 2770 Kastrup</li>
+            <li>Norddigesvej 3, 8240 Risskov</li>
+          </ul>
+
+          <h3>Pakker</h3>
+          <ul>
+            <li>Fuglebækvej 5-9, 2770 Kastrup</li>
+            <li>Birkedam 18, 6000 Kolding</li>
+          </ul>
+        </div>
+      </article>
+      <img class="socialbottom" src="./img/icon-sprite-social-media.png" alt="" srcset="">
+    </footer>
+  </body>
+</html>
