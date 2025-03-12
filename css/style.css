@@ -152,11 +152,11 @@ align-items:center
 }
 
 .banner1 {
-    background-image: url('/img/hero-01.jpg'); /* Replace with your actual image path */
+    background-image: url('../img/hero-01.jpg'); /* Replace with your actual image path */
 }
 
 .banner2 {
-    background-image: url('/img/hero-02.jpg'); /* Replace with your actual image path */
+    background-image: url('../img/hero-02.jpg'); /* Replace with your actual image path */
     transform: translateX(100%);
 }
 
